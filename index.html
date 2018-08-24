@@ -1,0 +1,116 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <script>
+   function add() {
+  var x1 = parseInt(document.getElementById("a1").value);
+  var y1 = parseInt(document.getElementById("b1").value);
+       
+       
+  var x2 = parseInt(document.getElementById("a2").value);
+  var y2 = parseInt(document.getElementById("b2").value);   
+       
+  var x3 = parseInt(document.getElementById("a3").value);
+  var y3 = parseInt(document.getElementById("b3").value);   
+       
+  var z1 = parseInt(document.getElementById("c1").value)
+  document.getElementById("r1").value =(y1/ x1) * z1;
+  document.getElementById("r2").value =(y2/ x2) * z1;
+  document.getElementById("r3").value =(y3/ x3) * z1;
+}
+      
+      </script>
+
+<input type="hidden" id="a1" value="10">
+<input type="hidden" id="b1" value="11">
+<br>
+<input type="hidden" id="a2" value="10">
+<input type="hidden" id="b2" value="13">
+<br>
+
+<input type="hidden" id="a3" value="10">
+<input type="hidden" id="b3" value="19">
+<br>
+
+<form action="">
+
+
+<br>
+<br>
+<div class="form_container">
+<div class="result_holder">
+
+<div class="enter">
+<input type="text" class="in_number" id="c1" onkeyup="add()" placeholder="Enter Amount">
+<img src="images/arrow.png" alt="">
+</div>
+
+<div class="two_result">
+
+<div class="single_result">
+<h2>After 1 <br/>Day</h2>
+<input type="text" class="result1" id="r1">
+
+</div>
+
+
+<div class="single_result">
+<h2>After 3 <br/>Day</h2>
+<input type="text" class="result2" id="r2">
+
+</div>
+</div>
+
+
+
+
+<div class="two_result">
+<div class="single_result">
+<h2>After 7 <br/>Day</h2>
+<input type="text" class="result3" id="r3">
+
+</div>
+
+
+
+
+<div class="single_result">
+<h2>After 15 <br/>Day</h2>
+<input type="text" class="result4" id="r3">
+
+</div>
+
+    </div>
+
+
+</div>
+<div class="deposit">
+    <input type="submit" name="submit" class="btn" value="">
+</div>
+
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,311 @@
+*{padding:0; margin:0;}
+ .form_container {
+    width: 892px;
+    
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.in_number {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 30px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+       font-size: 24px;
+}
+    
+   .enter{
+       
+        height: 50px;
+        width: 400px;
+       position: relative;
+      
+       margin: auto;
+      
+       
+    }
+    
+    .enter img{
+       
+        height: 50px;
+        width: 400px;
+       
+       margin: auto;
+      
+       
+    }
+    
+    
+    .single_result{
+        float: left;
+        position: relative;
+         border: 2px solid black;
+        border-radius: 5px;
+        margin: 0 3px;
+        width: 160px;
+        height: 150px;
+        color: 0066cc;
+        text-align: center;
+        margin: 5px;
+        
+        
+    }
+     .single_result h2{
+         font-size: 24px;
+    }
+         
+    .result1{
+        
+        position:absolute;
+        background: none;
+        text-align: center;
+        color: yellow;
+        font-size: 24px;
+        
+        background: url(../images/result1.png) no-repeat ;
+        height: 100px;
+        width: 160px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border: none;
+        margin-top: 70px;
+        
+        
+    }
+    
+    
+    .result2{
+        
+        position:absolute;
+        background: none;
+        text-align: center;
+        color: yellow;
+        font-size: 24px;
+        
+        background: url(../images/result2.png) no-repeat ;
+        height: 100px;
+        width: 160px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border: none;
+        margin-top: 70px;
+        
+        
+    }
+    
+     .result3{
+        
+        position:absolute;
+        background: none;
+        text-align: center;
+        color: yellow;
+        font-size: 24px;
+        
+        background: url(../images/result3.png) no-repeat ;
+        height: 100px;
+        width: 160px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border: none;
+        margin-top: 70px;
+        
+        
+    }
+    
+     .result4{
+        
+        position:absolute;
+        background: none;
+        text-align: center;
+        color: yellow;
+        font-size: 24px;
+        
+        background: url(../images/result4.png) no-repeat ;
+        height: 100px;
+        width: 160px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border: none;
+        margin-top: 70px;
+        
+        
+    }
+    
+    
+    
+    
+    
+    .result_holder {
+    width: 699px;
+    height:auto;
+        
+  
+        float: left;
+    
+    overflow: hidden;
+}
+    
+    
+    
+    
+    
+    .deposit{
+        float: right;
+        padding-top: 30px;
+        
+        
+        
+    }
+    
+   .btn {
+    height: 136px;
+    width: 190px;
+    background: url(../images/submit.png) no-repeat;
+    border: none;
+    margin-top: 20px;
+      cursor: pointer;
+}
+    
+    
+    @media (max-width:900px){
+        .form_container {
+            width: 100%;
+            
+        }
+        
+      .deposit{
+        float: none;
+       margin: 0 auto;
+       height: 140px;
+        width: 190px;
+    padding: 5px 0;
+    }  
+        
+        .result_holder{
+           float: none;
+       margin: 0 auto  
+            
+        }   
+        
+    }
+    
+    
+     @media (max-width:700px){
+         
+         
+         
+         .two_result{
+             
+            
+             width: 350px;
+             float: none;
+             margin: 0 auto;
+            
+         }  
+         
+         .result_holder{
+         
+         width: 100%;
+         
+         
+    }
+    }
+    
+    
+     @media (max-width:421px){
+         
+          .enter{
+       
+        height: 50px;
+        width: 350px;
+       
+              
+      
+       margin: auto;
+      
+       
+    }
+    
+    .enter img{
+       
+        height: 50px;
+        width: 350px;
+       
+      
+      
+       
+    }
+         
+         
+    }
+    
+    
+    
+    
+    @media (max-width:375px){
+        
+        .enter{
+       
+        height: 50px;
+        width: 250px;
+       
+              
+      
+       margin: auto;
+      
+       
+    }
+    
+    .enter img{
+       
+        height: 50px;
+        width: 250px;
+       
+      
+      
+       
+    }
+         
+        
+        
+        
+        .two_result{
+             
+           
+             width: 100%;
+             float: none;
+             margin: 0 auto;
+            
+         }  
+        
+        
+        
+         .single_result{
+             
+             float: none;
+             margin: 3px auto;
+             
+        }
+        
+        
+    }
+    
